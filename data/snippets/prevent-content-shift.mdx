@@ -1,0 +1,46 @@
+---
+title: 'Prevent Content Shift'
+date: '2022-02-2'
+type: 'elementor'
+draft: false
+summary: "Prevent Content Shift when header is sticky in Elementer Website"
+---
+
+Prevent Content Shift when header is sticky in Elementer Website
+
+```js
+// Prevent content shifts when header is sticky.
+
+const fixsticky = event => {
+
+  let header = document.querySelector('.elementor-location-header');
+
+  let sections = header.querySelectorAll('.elementor-top-section');
+
+  let height = 0;
+
+  if (sections.length) {
+
+    [...sections].map( section => {
+
+      if ('none' != section.style.display && 'hidden' != section.style.visibility) {
+
+        height += parseInt(section.offsetHeight, 10);
+
+      }
+
+    });
+
+    header.style.height = '84px';
+
+  }
+
+};
+
+window.addEventListener('load', fixsticky );
+
+window.addEventListener('resize', fixsticky );
+
+</script>
+
+```

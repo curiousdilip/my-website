@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.remark-code-title {
+  @apply px-5 py-3 font-mono text-sm font-bold text-gray-200 bg-gray-700 rounded-t;
+}
+
+.remark-code-title + div > pre {
+  @apply mt-0 rounded-t-none;
+}
+
+.code-line {
+  @apply px-4 -mx-4 border-l-4 border-gray-800;
+}
+
+.highlight-line {
+  @apply -mx-4 bg-gray-700 bg-opacity-50 border-l-4 border-primary-500;
+}
+
+.line-number::before {
+  @apply pr-4 -ml-2 text-gray-400;
+  content: attr(line);
+}
+
+.prose-lg pre {
+  margin-top: 1em;
+}
+.prose pre {
+  background-color: #222;
+}
+.prose pre .code-line {
+  border-color: #222;
+}
+.prose pre .code-line.highlight-line {
+  border-color: rgba(99, 102, 241, var(--tw-border-opacity)) !important;
+}
+
+@media (max-width: 768px) {
+  #refs ~ ul > li {
+    word-break: break-all;
+  }
+}
+
+.prose-lg blockquote {
+  background: #ebebeb;
+  color: #3d3b3b;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding-right: 8px;
+  border-left-color: #6f6868;
+}
+
+.dark .dark\:prose-dark blockquote {
+  background: #656565;
+  border-left-color: #b7abab !important;
+}
+
+.prose.prose-lg :not(pre) > code:not([class*='language']) {
+  display: inline-block;
+  color: rgb(34, 36, 38);
+  font-weight: 500;
+  background-color: #dfdcdcc4;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 6px;
+}
+
+.prose pre code {
+  font-weight: 500 !important;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+html,
+.lightbox-overlay {
+  /* margin-left: calc(100vw - 100%); */
+  width: 100vw;
+}
+
+html.prevent-scroll {
+  overflow-y: hidden;
+}
+html.lightbox-loading,
+html.lightbox-loading * {
+  cursor: wait !important;
+}
+
+.prose > ul > li:last-child {
+  margin-bottom: 1.25em;
+}
+.prose > ul > li:first-child {
+  margin-top: 1.25em;
+}
+
+.prose > ul > li > *:last-child,
+.prose-lg > ul > li > *:last-child {
+  margin-bottom: 0;
+}
+
+.prose > ul > li > *:first-child,
+.prose-lg > ul > li > *:first-child {
+  margin-top: 0;
+}
+
+.prose :where(thead th):not(:where([class~='not-prose'] *)) {
+  color: unset;
+}
+
+.prose ol li:before {
+  background-color: transparent !important;
+}
+
+.prose .code-line {
+  font-size: 16px;
+}
+
+.prose-lg hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+* {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.flag-vn i {
+  background-position: 50% -200%;
+}
+
+.flag-in i {
+  background-position: 50% -200%;
+}
