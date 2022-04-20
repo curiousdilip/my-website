@@ -55,9 +55,6 @@ export default function Home({ posts }) {
                   <Twemoji emoji="briefcase" /> My resume
                 </Link>
               </div>
-              <p className="my-8">
-                Happy reading <Twemoji emoji="clinking-beer-mugs" />
-              </p>
             </div>
           </div>
           <div className="hidden xl:block">
