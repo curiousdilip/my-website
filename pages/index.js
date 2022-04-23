@@ -24,19 +24,26 @@ export default function Home({ posts }) {
       <PageSeo title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700 mt-8 md:mt-16">
         <div className="my-4 pt-6 pb-8 space-y-2 md:space-y-5 xl:grid xl:grid-cols-3">
-          <div className="xl:col-span-2 pr-8">
-
+          <div className="xl:col-span-2 pr-2">
             <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
               {/*<TypedBios /> */}
               <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 ">
-            Dilip Kumar <i className="twa twa-waving-hand"></i>
-          </h1>
-              <p className="mt-4 mb-2">
-              Hey, there! Welcome to my website. I'm Dilip Kumar - Wordpress Developer at <a href="http://www.taknikbharti.com" rel="noopener">Taknik Bharti</a>.
+                Dilip Kumar <i className="twa twa-waving-hand"></i>
+              </h1>
+              <p className="mt-4 mb-2 text-justify">
+                Hey, there! Welcome to my website. I'm Dilip Kumar - Wordpress Developer at{' '}
+                <a href="http://www.taknikbharti.com" rel="noopener">
+                  Taknik Bharti
+                </a>
+                .
               </p>
 
-              <p className='mt-4 mb-4'>
-              I am a senior year student at Guru Gobind Singh Indraprastha University, Dwarka currently undertaking my Bachelor of Computer Application. I am a Frontend Web Developer at Taknik Bharti, working with the Designers and Backend Developers Team at Taknik Bharti on Different Project for their Clients. Previously, I had worked on different Websites based on WordPress CMS for different people.
+              <p className="mt-4 mb-4 text-justify">
+                I am a senior year student at Guru Gobind Singh Indraprastha University, Dwarka
+                currently undertaking my Bachelor of Computer Application. I am a Frontend Web
+                Developer at Taknik Bharti, working with the Designers and Backend Developers Team
+                at Taknik Bharti on Different Project for their Clients. Previously, I had worked on
+                different Websites based on WordPress CMS for different people.
               </p>
               <div className="flex flex-col">
                 <Link href="/projects" className="hover:underline">
