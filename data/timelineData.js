@@ -1,52 +1,50 @@
 const timelineData = [
   {
-    time: 'Feb 2022 - Present',
-    role: ' Wordpress Developer',
-    company: 'Taknik Bharti',
-    companyURL: 'http://www.taknikbharti.com',
-    companyBio: 'IT and software development company for your business. We design, develop and deliver softwares.',
-    works: [
-      `Maintain and optimize companies Websites and their projects`,
-    ],
-  },
-  {
-    time: 'Nov 2021 - Feb 2022',
-    role: 'Freelance Wordpress Developer',
-    company: 'Inifinit Enigma',
-    // companyURL: 'https://foxecom.com/',
-    works: [
-      <>
-        Built{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://mpaa.ac.uk"
-        >
-          MPAA - Performing Arts Academy
-        </a>{' '}
-        - Industry Led Performing Arts Academy
-      </>,
-    ],
-  },
-  {
-    time: 'Aug 2019 - Present ',
-    role: 'Studying BCA(Bachelors of Computer Application)',
-    company: 'Guru Gobind Singh Indraprastha University',
-    companyURL: 'http://www.ipu.ac.in',
-  },
-  {
-    time: 'Before 2018',
+    time: '14th April 2022',
     role: (
       <>
-        Grown up in{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://en.wikipedia.org/wiki/Najafgarh"
-        >
-          Najafagrh
+        My First Government Project{' '}
+        <a target="_blank" rel="noopener noreferrer" href="https://www.pmsangrahalaya.gov.in/">
+          Pradhanmantri Sangrahalaya
         </a>{' '}
-        District
+        .
+      </>
+    ),
+  },
+  {
+    time: '16th February 2022',
+    role: (
+      <>
+        Landed my first job in{' '}
+        <a target="_blank" rel="noopener noreferrer" href="http://www.taknikbharti.com">
+          Taknik Bharti
+        </a>{' '}
+        .
+      </>
+    ),
+  },
+  {
+    time: '11th November 2021',
+    role: (
+      <>
+        My First International Project{' '}
+        <a target="_blank" rel="noopener noreferrer" href="https://mpaa.ac.uk/">
+          MPAA
+        </a>{' '}
+        .
+      </>
+    ),
+  },
+
+  {
+    time: '9th September 2019',
+    role: (
+      <>
+        My First Freelance Project{' '}
+        <a target="_blank" rel="noopener noreferrer" href="https://www.nlpminerals.com">
+          NLP Minerals Pvt. Ltd.
+        </a>{' '}
+        .
       </>
     ),
   },

@@ -78,8 +78,8 @@ const ProfileCard = () => {
 
 const ProfileInfo = () => (
   <div className="hidden xl:block xl:px-6 py-4">
-    <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Dilip Kumar Maurya</h1>
-    <p className="py-2 text-gray-700 dark:text-gray-400">Front End Web Developer | Learner </p>
+    <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Dilip Kumar</h1>
+    <p className="py-2 text-gray-700 dark:text-gray-400">Frontend Web Developer</p>
     <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const ProfileInfo = () => (
         />
       </svg>
 
-      <p className="px-2 text-[15px]">Wordpress Developer - Taknik Bharti</p>
+      <p className="px-2 text-[15px]">Web Developer - Taknik Bharti</p>
     </div>
 
     <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
@@ -121,7 +121,7 @@ const ProfileInfo = () => (
         />
       </svg>
 
-      <p className="px-2 text-[15px]">Delhi, India</p>
+      <p className="px-2 text-[15px]">New Delhi, India</p>
     </div>
 
     <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
