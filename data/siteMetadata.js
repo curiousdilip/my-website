@@ -12,10 +12,10 @@ const siteMetadata = {
   image: '/static/images/t.png',
   socialBanner: '/static/images/dilipmaurya.png',
   email: 'contact@dilipmaurya.in',
-  github: 'https://github.com/dkmrya02',
-  twitter: 'https://twitter.com/dkmrya02',
-  facebook: 'https://facebook.com/dkmrya02',
-  linkedin: 'https://www.linkedin.com/in/dkmrya02/',
+  github: 'https://github.com/curiousdilip',
+  twitter: 'https://twitter.com/curiousdilip',
+  facebook: 'https://facebook.com/curiousdilip',
+  linkedin: 'https://www.linkedin.com/in/curiousdilip/',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
@@ -67,7 +67,7 @@ const siteMetadata = {
     },
   },
   socialAccount: {
-    twitter: 'dkmrya02',
+    twitter: 'curiousdilip',
   },
 }
 

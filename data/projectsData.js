@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: 'Pradhanmantri Sangrahalaya',
+    description: `"The Pradhanmantri Sangrahalaya in New Delhi is a tribute by our nation to the Prime Ministers who rebuilt India after Independence`,
+    imgSrc: '/static/images/projects/pmsangrahalaya.jpg',
+    href: 'https://www.pmsangrahalaya.gov.in/',
+    type: 'work',
+  },
+  {
     title: 'Bizox Consultancy',
     description: `Bizox Consultancy is a global IT solution company. We have been providing services in the fields of technology development and Internet marketing since 2016.`,
     imgSrc: '/static/images/projects/bizox.jpg',
