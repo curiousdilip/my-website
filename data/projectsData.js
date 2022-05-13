@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: 'Pradhanmantri Sangrahalaya',
-    description: `"The Pradhanmantri Sangrahalaya in New Delhi is a tribute by our nation to the Prime Ministers who rebuilt India after Independence`,
+    description: `The Pradhanmantri Sangrahalaya in New Delhi is a tribute by our nation to the Prime Ministers who rebuilt India after Independence`,
     imgSrc: '/static/images/projects/pmsangrahalaya.jpg',
     href: 'https://www.pmsangrahalaya.gov.in/',
     type: 'work',
@@ -18,7 +18,6 @@ const projectsData = [
     description: `Industry Led Performing Arts Academy, Offering a 3 Year BA (Hons) Degree Musical Theatre Performance Degree with Outstanding employment results.`,
     imgSrc: '/static/images/projects/mpaa.ac.uk.jpg',
     href: 'https://mpaa.ac.uk',
-    // repoName: 'mpaa.ac.uk',
     type: 'self',
   },
   {
@@ -26,7 +25,6 @@ const projectsData = [
     description: `Grace Fellowship Church, Gwthar NW are the community of God, serving People God’s children in spirit and being.`,
     imgSrc: '/static/images/projects/grace fellowship.jpg',
     href: 'https://www.gracefellowship.in',
-    // repoName: 'gracefellowship',
     type: 'self',
   },
   {
@@ -34,7 +32,6 @@ const projectsData = [
     description: `A Lifestyle Blog for an Insight for Home Styling, Trending Fashionable Accessories & Clothing, Beauty & Body Care Tips and Wisdom in Personality Development.`,
     imgSrc: '/static/images/projects/lifeamuses blog.jpg',
     href: 'https://www.lifeamuses.com',
-    // repoName: 'lifeamuses',
     type: 'self',
   },
   {
@@ -43,7 +40,6 @@ const projectsData = [
     one of the leading miners, manufacturers & exporters of premium quality natural industrial minerals. `,
     imgSrc: '/static/images/projects/nlp minerals.jpg',
     href: 'https://www.nlpminerals.com',
-    // repoName: 'nlpminerals',
     type: 'self',
   },
 ]
