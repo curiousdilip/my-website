@@ -157,12 +157,12 @@ const ProfileInfo = () => (
         />
       </svg>
       <p className="px-2 text-[15px]">
-        <a target="_blank" href="https://github.com/dkmrya02" rel="noreferrer">
-          git.io/dkmrya02
+        <a target="_blank" href="https://github.com/curiousdilip" rel="noreferrer">
+          git.io/curiousdilip
         </a>
         ,{' '}
-        <a target="_blank" href="https://twitter.com/dkmrya02" rel="noreferrer">
-          t.co/dkmrya02
+        <a target="_blank" href="https://twitter.com/curiousdilip" rel="noreferrer">
+          t.co/curiousdilip
         </a>
       </p>
     </div>
