@@ -39,11 +39,11 @@ export default function Home({ posts }) {
               </p>
 
               <p className="mt-4 mb-4 text-justify">
-                I am a senior year student at Guru Gobind Singh Indraprastha University, Dwarka
-                currently undertaking my Bachelor of Computer Application. I am a Frontend Web
-                Developer at Taknik Bharti, working with the Designers and Backend Developers Team
-                at Taknik Bharti on Different Project for their Clients. Previously, I had worked on
-                different Websites based on WordPress CMS for different people.
+                I am a senior year student at Guru Gobind Singh Indraprastha University, Dwarka,
+                currently in my final year of Bachelor's of Computer Application. I am a Frontend
+                Web Developer at Taknik Bharti, working with the Designers and Backend Developers
+                Team on different projects for their Clients. Earlier, I've worked as a freelancer
+                for different Websites on WordPress CMS.
               </p>
               <div className="flex flex-col">
                 <Link href="/projects" className="hover:underline">
@@ -56,7 +56,7 @@ export default function Home({ posts }) {
                   <Twemoji emoji="dna" /> Useful snippets collected by me
                 </Link>
                 <Link href="/about" className="hover:underline">
-                  <Twemoji emoji="face-with-monocle" /> More about me and myself
+                  <Twemoji emoji="face-with-monocle" /> More about myself
                 </Link>
                 <Link href="/resume" className="hover:underline">
                   <Twemoji emoji="briefcase" /> My resume
