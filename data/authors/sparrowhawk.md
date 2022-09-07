@@ -4,7 +4,7 @@ title: Dilip Kumar Maurya | Front End Web Developer
 avatar: /static/images/logo.jpg
 occupation: Frontend Web Developer
 company: Taknik Bharti
-email: contact@dilipmaurya.in
+email: curiousdilip@gmail.com
 twitter: https://twitter.com/curiousdilip
 facebook: https://facebook.com/curiousdilip
 linkedin: https://www.linkedin.com/in/curiousdilip

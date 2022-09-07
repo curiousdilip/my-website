@@ -26,7 +26,6 @@ export default function Home({ posts }) {
         <div className="my-4 pt-6 pb-8 space-y-2 md:space-y-5 xl:grid xl:grid-cols-3">
           <div className="xl:col-span-2 pr-2">
             <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
-              {/*<TypedBios /> */}
               <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 ">
                 Dilip Kumar <i className="twa twa-waving-hand"></i>
               </h1>
@@ -39,11 +38,11 @@ export default function Home({ posts }) {
               </p>
 
               <p className="mt-4 mb-4 text-justify">
-                I am a senior year student at Guru Gobind Singh Indraprastha University, Dwarka,
-                currently in my final year of Bachelor's of Computer Application. I am a Frontend
-                Web Developer at Taknik Bharti, working with the Designers and Backend Developers
-                Team on different projects for their Clients. Earlier, I've worked as a freelancer
-                for different Websites on WordPress CMS.
+                I am a Frontend Web Developer at Taknik Bharti, working with the Designers and
+                Backend Developers Team on different projects for their Clients. Earlier, I've
+                worked as a freelancer. I'm very passionate about technology and computers. I am
+                reliable, can work in a team, and can learn quickly my interests are in frontend web
+                development.
               </p>
               <div className="flex flex-col">
                 <Link href="/projects" className="hover:underline">

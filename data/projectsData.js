@@ -20,20 +20,20 @@ const projectsData = [
     href: 'https://mpaa.ac.uk',
     type: 'self',
   },
-  // {
-  //   title: 'Grace Fellowship Church',
-  //   description: `Grace Fellowship Church, Gwthar NW are the community of God, serving People God’s children in spirit and being.`,
-  //   imgSrc: '/static/images/projects/grace fellowship.jpg',
-  //   href: 'https://www.gracefellowship.in',
-  //   type: 'self',
-  // },
-  // {
-  //   title: 'LifeAmuses Blog',
-  //   description: `A Lifestyle Blog for an Insight for Home Styling, Trending Fashionable Accessories & Clothing, Beauty & Body Care Tips and Wisdom in Personality Development.`,
-  //   imgSrc: '/static/images/projects/lifeamuses blog.jpg',
-  //   href: 'https://www.lifeamuses.com',
-  //   type: 'self',
-  // },
+  {
+    title: 'Grace Fellowship Church',
+    description: `Grace Fellowship Church, Gwthar NW are the community of God, serving People God’s children in spirit and being.`,
+    imgSrc: '/static/images/projects/grace fellowship.jpg',
+    href: 'https://www.gracefellowship.in',
+    type: 'self',
+  },
+  {
+    title: 'LifeAmuses Blog',
+    description: `A Lifestyle Blog for an Insight for Home Styling, Trending Fashionable Accessories & Clothing, Beauty & Body Care Tips and Wisdom in Personality Development.`,
+    imgSrc: '/static/images/projects/lifeamuses blog.jpg',
+    href: 'https://www.lifeamuses.com',
+    type: 'self',
+  },
   {
     title: 'NLP Minerals Pvt. Ltd.',
     description: `NLP Minerals and Chemicals is an ISO 9001:2015 certified company and
