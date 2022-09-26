@@ -37,7 +37,7 @@ export default function Home({ posts }) {
                 .
               </p>
 
-              <p className="mt-4 mb-4 text-justify">
+              <p className="mt-4 mb-4">
                 I am a Frontend Web Developer at Taknik Bharti, working with the Designers and
                 Backend Developers Team on different projects for their Clients. Earlier, I've
                 worked as a freelancer. I'm very passionate about technology and computers. I am
