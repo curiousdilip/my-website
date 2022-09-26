@@ -30,7 +30,7 @@ export default function Home({ posts }) {
                 Dilip Kumar <i className="twa twa-waving-hand"></i>
               </h1>
               <p className="mt-4 mb-2 text-justify">
-                Hey, there! Welcome to my website. I'm Dilip Kumar - Wordpress Developer at{' '}
+                Hey, there! Welcome to my website. I'm Dilip Kumar - Frontend Web Developer at{' '}
                 <a href="http://www.taknikbharti.com" rel="noopener">
                   Taknik Bharti
                 </a>

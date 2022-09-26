@@ -61,7 +61,7 @@ const ProfileCard = () => {
         >
           <span className="h-1.5 bg-gradient-to-l from-green-300 via-blue-500 to-purple-600"></span>
           <Image
-            src={'/static/images/logo.jpg'}
+            src={'/static/images/main image.jpg'}
             alt="avatar"
             width="550px"
             height="350px"
