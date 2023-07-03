@@ -6,13 +6,8 @@ import Twemoji from './Twemoji'
 import Link from 'next/link'
 
 const ProfileCard = () => {
-  // const { data } = useSWR('/api/spotify', fetcher)
-
   const ref = useRef(null)
   const [style, setStyle] = useState({})
-
-
-
   return (
     <>
       <div
