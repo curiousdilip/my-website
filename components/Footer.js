@@ -15,14 +15,10 @@ export default function Footer() {
           <SocialIcon kind="youtube" href={siteMetadata.youtube} size="6" />
         </div>
         <div className="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          {/* <div>{`Copyright © ${new Date().getFullYear()}`}</div> */}
-          {/* <div>{` • `}</div> */}
+
           <Link href="/">{siteMetadata.footerTitle}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          {/* <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
-          </Link> */}
         </div>
       </div>
     </footer>

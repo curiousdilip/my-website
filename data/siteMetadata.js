@@ -5,7 +5,7 @@ const siteMetadata = {
   footerTitle: 'Dilip Kumar | Frontend Web Developer',
   description:
     'Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India. Right now I am working as Frontend Web Developer at Taknik Bharti.',
-  snippets: 'Reuseable code snippets collected by Dilip',
+  snippets: 'Code snippets collected by Dilip',
   language: 'en-us',
   siteUrl: 'https://www.dilipmaurya.in',
   siteLogo: '/static/images/t.png',
