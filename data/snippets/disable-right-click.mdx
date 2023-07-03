@@ -1,0 +1,18 @@
+---
+title: "Disable Right Click on Web Browser"
+date: "2023-7-3"
+type: "javascript"
+draft: false
+summary: "Disable right-click functionality on a static HTML page using JavaScript"
+---
+
+We can add an event listener to the document's contextmenu event and prevent its default behavior.
+
+```js
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
+```
+The JavaScript portion adds an event listener to the contextmenu event, which triggers when the user tries to right-click. Inside the event listener, we call preventDefault() on the event object to prevent the browser's default context menu from appearing.
+
+Note that while this approach can deter casual users from right-clicking, it won't prevent determined users from accessing your content through other means. Also, keep in mind that disabling right-click goes against typical web browsing behavior and might lead to a poor user experience.

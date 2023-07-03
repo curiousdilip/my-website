@@ -14,6 +14,27 @@ const projectsData = [
     type: 'work',
   },
   {
+    title: 'Rainbow Consultancy',
+    description: `Rainbow Consultancy is a consortium of independent professional consultants with a commitment to provide quality training, evaluation and documentation services to our clients.`,
+    imgSrc: '/static/images/projects/rainbow.png',
+    href: 'https://rainbowconsultancy.in',
+    type: 'self',
+  },
+  {
+    title: 'Word of Guidance',
+    description: `Word of Guidance is a site of spiritual resources to assist individuals to know the Lord Jesus Christ who is the Light of the World.`,
+    imgSrc: '/static/images/projects/wordofguidance.png',
+    href: 'https://wordofguidance.in/',
+    type: 'self',
+  },
+  {
+    title: 'FAAHM - Future and a Hope Ministries',
+    description: `Future And A Hope Ministries Inc. was founded in 2008 in San Diego, California. We first started our work as a Children’s Home in Asia from 2009 to 2016 with a set of siblings`,
+    imgSrc: '/static/images/projects/faahm.png',
+    href: 'https://www.faahm.org/',
+    type: 'self',
+  },
+  {
     title: 'MPAA - Performing Arts Academy',
     description: `Industry Led Performing Arts Academy, Offering a 3 Year BA (Hons) Degree Musical Theatre Performance Degree with Outstanding employment results.`,
     imgSrc: '/static/images/projects/mpaa.ac.uk.jpg',
@@ -40,6 +61,13 @@ const projectsData = [
     one of the leading miners, manufacturers & exporters of premium quality natural industrial minerals. `,
     imgSrc: '/static/images/projects/nlp minerals.jpg',
     href: 'https://www.nlpminerals.com',
+    type: 'self',
+  },
+  {
+    title: 'Ramen Paul',
+    description: `Trained in England (1993) France(1994) and U.S. (1995-98) Teaching music since last 15 years,authorized teacher of Trinity college, Rock school, Rock and Pop and Royal college, London. `,
+    imgSrc: '/static/images/projects/ramenpaul.png',
+    href: 'http://ramenpaul.com',
     type: 'self',
   },
 ]
