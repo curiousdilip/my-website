@@ -24,6 +24,7 @@ const LayoutWrapper = ({ children }) => {
                     width={45}
                     height={45}
                     className="rounded-full"
+                    alt="Dilip Kumar Website Logo"
                   />
                 </div>
               </div>
