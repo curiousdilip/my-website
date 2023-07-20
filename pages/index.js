@@ -43,16 +43,16 @@ export default function Home({ posts }) {
                 I work at Taknik Bharti as a Frontend Web Developer on various projects for their Clients alongside the Designers and Backend Developers Team. I've previously done freelance work. I have a strong interest in computers and technology. I can learn new things quickly, I can be relied upon, and my interests are in frontend web development.
               </p>
               <div className="flex flex-col">
-                <Link href="/projects" className="hover:underline">
+                <Link href="/projects" className="hover:underline flex justify-start items-center">
                   <Twemoji emoji="hammer-and-wrench" /> What have I built?
                 </Link>
-                <Link href="/snippets" className="hover:underline">
+                <Link href="/snippets" className="hover:underline  flex justify-start items-center">
                   <Twemoji emoji="dna" /> Useful snippets collected by me
                 </Link>
-                <Link href="/about" className="hover:underline">
+                <Link href="/about" className="hover:underline  flex justify-start items-center">
                   <Twemoji emoji="face-with-monocle" /> More about myself
                 </Link>
-                <Link href="/resume" className="hover:underline">
+                <Link href="/resume" className="hover:underline  flex justify-start items-center">
                   <Twemoji emoji="briefcase" /> My resume
                 </Link>
               </div>
