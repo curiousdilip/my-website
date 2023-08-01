@@ -56,7 +56,7 @@ const ProfileInfo = () => (
         />
       </svg>
 
-      <p className="px-2 text-[15px]">Web Developer - Taknik Bharti</p>
+      <p className="px-2 text-[15px]">Looking for Opportunity</p>
     </div>
 
     <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
@@ -121,8 +121,8 @@ const ProfileInfo = () => (
           git.io/curiousdilip
         </a>
         ,{' '}
-        <a target="_blank" href="https://twitter.com/curiousdilip" rel="noreferrer">
-          t.co/curiousdilip
+        <a target="_blank" href="https://www.linkedin.com/in/curiousdilip/" rel="noreferrer">
+          in/curiousdilip
         </a>
       </p>
     </div>

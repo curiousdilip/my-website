@@ -30,17 +30,19 @@ export default function Home({ posts }) {
                 Dilip Kumar <i className="twa twa-waving-hand"></i>
               </h1>
               <p className="mt-4 mb-2 text-justify">
-                Good day! I'm glad you're here. I'm Dilip Kumar - Frontend Web Developer at{' '}
-                <a href="http://www.taknikbharti.com" rel="noopener">
+                Good day! I'm glad you're here. I'm Dilip Kumar - Looking for Opportunity in Frontend Web Development
+                {/* <a href="http://www.taknikbharti.com" rel="noopener">
                   Taknik Bharti
-                </a>
+                </a> */}
                 .
               </p>
 
 
 
               <p className="mt-4 mb-4">
-                I work at Taknik Bharti as a Frontend Web Developer on various projects for their Clients alongside the Designers and Backend Developers Team. I've previously done freelance work. I have a strong interest in computers and technology. I can learn new things quickly, I can be relied upon, and my interests are in frontend web development.
+
+                I am a frontend web developer with more than 1 year of experience, I'm very passionate about technology and computers.
+                I've previously done freelance work. I have a strong interest in computers and technology. I can learn new things quickly, I can be relied upon, and my interests are in frontend web development.
               </p>
               <div className="flex flex-col">
                 <Link href="/projects" className="hover:underline">
