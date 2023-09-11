@@ -14,6 +14,13 @@ const projectsData = [
     type: 'work',
   },
   {
+    title: 'OXSYS | Compact Medical Oxygen Generators',
+    description: `Founded in 2021, OXSYS excels in Oxygen generation through modular PSA technology. 70% self-manufactured, strong supply chain, medical Oxygen expertise.`,
+    imgSrc: '/static/images/projects/oxsys.png',
+    href: 'https://oxsys.in',
+    type: 'self',
+  },
+  {
     title: 'Rainbow Consultancy',
     description: `Rainbow Consultancy is a consortium of independent professional consultants with a commitment to provide quality training, evaluation and documentation services to our clients.`,
     imgSrc: '/static/images/projects/rainbow.png',
